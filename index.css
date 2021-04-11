@@ -1,0 +1,97 @@
+/*@*/
+@keyframes gradient {
+	0% 
+    {
+		background-position: 0% 0%;
+	}
+	100% 
+    {
+		background-position: 100% 0%;
+	}
+}
+/*@*/
+
+/*Tag*/
+body
+{
+    background-image: url(https://demografiaunicamp.files.wordpress.com/2013/10/climate_change.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h3, p
+{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+
+h3
+{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+p
+{
+    margin-top: 2vh;
+}
+
+button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h5
+{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+h6
+{
+    text-align: center;
+}
+/*Tag*/
+
+/*Class*/
+.col-md-4
+{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+/*Class*/
+
+/*Id*/
+
+#botao1
+{
+    background: linear-gradient(90deg, rgb(255, 0, 242), rgba(255, 0, 242, 0.212), rgba(255, 0, 200, 0.062), rgba(255, 0, 106, 0.877));
+    background-size: 300% 100%;
+	animation: gradient 3s infinite linear;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    padding-left: 25%;
+    padding-right: 25%;
+    box-shadow: 0 3px 6px black;
+}
+
+#botao2
+{
+    background: linear-gradient(90deg, rgb(0, 13, 128), rgb(26, 8, 190), rgb(10, 3, 70), rgb(41, 171, 223));
+    background-size: 300% 100%;
+	animation: gradient 3s infinite linear;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    padding-left: 25%;
+    padding-right: 25%;
+    box-shadow: 0 3px 6px black;
+    
+}
+
+
+
